@@ -1,0 +1,12 @@
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\bin\Debug\net8.0\Notifications.Domain.deps.json
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\bin\Debug\net8.0\Notifications.Domain.dll
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\bin\Debug\net8.0\Notifications.Domain.pdb
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\Notifications.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\Notifications.Domain.AssemblyInfoInputs.cache
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\Notifications.Domain.AssemblyInfo.cs
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\Notifications.Domain.csproj.CoreCompileInputs.cache
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\Notifications.Domain.sourcelink.json
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\Notifications.Domain.dll
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\refint\Notifications.Domain.dll
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\Notifications.Domain.pdb
+D:\Otros\PATRONES\lab-2025-ii-pds-u2-02-cs-Brunoenr02\Notifications\Notifications.Domain\obj\Debug\net8.0\ref\Notifications.Domain.dll
