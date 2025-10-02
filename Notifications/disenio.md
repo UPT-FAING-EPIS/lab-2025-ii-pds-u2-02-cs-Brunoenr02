@@ -26,3 +26,4 @@ AbstractMessage <|-- ShortMessage
 IMessageSender <|.. SmsMessageSender
 
 ```
+mermaid.md

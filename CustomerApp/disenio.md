@@ -26,3 +26,4 @@ Validator : +ValidateCustomer() Boolean
 Customer <-- DataAccessLayer
 
 ```
+mermaid.md
