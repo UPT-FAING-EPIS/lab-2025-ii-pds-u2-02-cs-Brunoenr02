@@ -1,0 +1,266 @@
+{
+  "source_base_path": "/home/runner/work/lab-2025-ii-pds-u2-02-cs-Brunoenr02/lab-2025-ii-pds-u2-02-cs-Brunoenr02",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CustomerApp/disenio.md",
+      "output": {
+        ".html": {
+          "relative_path": "CustomerApp/disenio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Notifications/disenio.md",
+      "output": {
+        ".html": {
+          "relative_path": "Notifications/disenio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.Customer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CustomerApp.Domain.Customer",
+      "Summary": "<p sourcefile=\"api/CustomerApp.Domain/CustomerApp.Domain.Customer.yml\" sourcestartlinenumber=\"1\">Representa un cliente con información personal y credenciales de acceso.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.DataAccessLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.DataAccessLayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CustomerApp.Domain.DataAccessLayer",
+      "Summary": "<p sourcefile=\"api/CustomerApp.Domain/CustomerApp.Domain.DataAccessLayer.yml\" sourcestartlinenumber=\"1\">Simula el acceso a la base de datos para almacenar y gestionar clientes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.EmailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.EmailService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CustomerApp.Domain.EmailService",
+      "Summary": "<p sourcefile=\"api/CustomerApp.Domain/CustomerApp.Domain.EmailService.yml\" sourcestartlinenumber=\"1\">Proporciona servicios para el envío de correos electrónicos relacionados con el registro de clientes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.Validator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CustomerApp.Domain.Validator",
+      "Summary": "<p sourcefile=\"api/CustomerApp.Domain/CustomerApp.Domain.Validator.yml\" sourcestartlinenumber=\"1\">Proporciona métodos para validar los datos de un cliente antes de su registro.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CustomerApp.Domain/CustomerApp.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CustomerApp.Domain",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/CustomerApp.Domain/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CustomerApp.Domain/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/CustomerApp.Domain/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Notifications.Domain/Notifications.Domain.AbstractMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/Notifications.Domain.AbstractMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Notifications.Domain.AbstractMessage",
+      "Summary": "<p sourcefile=\"api/Notifications.Domain/Notifications.Domain.AbstractMessage.yml\" sourcestartlinenumber=\"1\">Clase base abstracta para mensajes que pueden ser enviados por diferentes medios.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Notifications.Domain/Notifications.Domain.EmailMessageSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/Notifications.Domain.EmailMessageSender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Notifications.Domain.EmailMessageSender",
+      "Summary": "<p sourcefile=\"api/Notifications.Domain/Notifications.Domain.EmailMessageSender.yml\" sourcestartlinenumber=\"1\">Implementa el envío de mensajes utilizando correo electrónico.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Notifications.Domain/Notifications.Domain.IMessageSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/Notifications.Domain.IMessageSender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Notifications.Domain.IMessageSender",
+      "Summary": "<p sourcefile=\"api/Notifications.Domain/Notifications.Domain.IMessageSender.yml\" sourcestartlinenumber=\"1\">Define la interfaz para el envío de mensajes por diferentes medios.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Notifications.Domain/Notifications.Domain.LongMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/Notifications.Domain.LongMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Notifications.Domain.LongMessage",
+      "Summary": "<p sourcefile=\"api/Notifications.Domain/Notifications.Domain.LongMessage.yml\" sourcestartlinenumber=\"1\">Representa un mensaje largo que puede ser enviado por diferentes medios.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Notifications.Domain/Notifications.Domain.ShortMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/Notifications.Domain.ShortMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Notifications.Domain.ShortMessage",
+      "Summary": "<p sourcefile=\"api/Notifications.Domain/Notifications.Domain.ShortMessage.yml\" sourcestartlinenumber=\"1\">Representa un mensaje corto que puede ser enviado por diferentes medios. Valida la longitud antes de enviar.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Notifications.Domain/Notifications.Domain.SmsMessageSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/Notifications.Domain.SmsMessageSender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Notifications.Domain.SmsMessageSender",
+      "Summary": "<p sourcefile=\"api/Notifications.Domain/Notifications.Domain.SmsMessageSender.yml\" sourcestartlinenumber=\"1\">Implementa el envío de mensajes utilizando SMS.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Notifications.Domain/Notifications.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/Notifications.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Notifications.Domain",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Notifications.Domain/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Notifications.Domain/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/Notifications.Domain/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
