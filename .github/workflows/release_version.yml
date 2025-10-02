@@ -1,0 +1,63 @@
+name: Actividad03 - ReleaseVersion
+
+env:
+  DOTNET_VERSION: '8.0'
+
+on:
+  push:
+    tags:
+      - 'v*' # Solo cuando se crean tags de versión
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Extract version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      - name: Build CustomerApp
+        run: |
+          dotnet restore CustomerApp/CustomerApp.sln
+          dotnet build CustomerApp/CustomerApp.sln --configuration Release --no-restore
+
+      - name: Build Notifications
+        run: |
+          dotnet restore Notifications/Notifications.sln
+          dotnet build Notifications/Notifications.sln --configuration Release --no-restore
+
+      - name: Run unit tests CustomerApp
+        run: |
+          dotnet test CustomerApp/CustomerApp.Domain.Tests/CustomerApp.Domain.Tests.csproj --configuration Release --no-build
+
+      - name: Run unit tests Notifications
+        run: |
+          dotnet test Notifications/Notifications.Domain.Tests/Notifications.Domain.Tests.csproj --configuration Release --no-build
+
+      - name: Pack CustomerApp.Domain
+        run: |
+          dotnet pack CustomerApp/CustomerApp.Domain/CustomerApp.Domain.csproj -c Release \
+            --no-build \
+            -p:PackageVersion=${{ steps.get_version.outputs.VERSION }} \
+            -o ./artifacts
+
+      - name: Pack Notifications.Domain
+        run: |
+          dotnet pack Notifications/Notifications.Domain/Notifications.Domain.csproj -c Release \
+            --no-build \
+            -p:PackageVersion=${{ steps.get_version.outputs.VERSION }} \
+            -o ./artifacts
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "artifacts/*.nupkg"
+          generate_release_notes: true
