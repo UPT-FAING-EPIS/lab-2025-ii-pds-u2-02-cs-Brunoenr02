@@ -1,7 +1,15 @@
 namespace CustomerApp.Domain
 {
+    /// <summary>
+    /// Proporciona métodos para validar los datos de un cliente antes de su registro.
+    /// </summary>
     public class Validator
     {
+        /// <summary>
+        /// Valida los campos obligatorios de un cliente. Lanza excepción si algún campo es inválido.
+        /// </summary>
+        /// <param name="customer">El cliente a validar.</param>
+        /// <returns>True si el cliente es válido.</returns>
         public bool ValidateCustomer(Customer customer)
         {
             //Need to Validate the Customer Object
