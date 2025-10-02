@@ -9,14 +9,12 @@ Este sitio contiene la documentación técnica y de pruebas de los proyectos:
 - **CustomerApp**: Gestión y registro de clientes.
 - **Notifications**: Envío de mensajes por Email y SMS.
 
-## Navegación
+## CustomerApp
 
 - [Diagrama de Clases CustomerApp](CustomerApp/disenio.md)
+- [API CustomerApp](api/CustomerApp.Domain/CustomerApp.Domain.html)
+
+## Notifications
+
 - [Diagrama de Clases Notifications](Notifications/disenio.md)
-- [Cobertura y Pruebas CustomerApp](CustomerApp/CustomerApp.Domain.Tests/TestResults/)
-- [Cobertura y Pruebas Notifications](Notifications/Notifications.Domain.Tests/TestResults/)
-
-## Documentación de Código
-
-- [API CustomerApp](api/CustomerApp.Domain/index.html)
-- [API Notifications](api/Notifications.Domain/index.html)
+- [API Notifications](api/Notifications.Domain/Notifications.Domain.html)
